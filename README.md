@@ -5,12 +5,17 @@ Install local
 go install
 ```
 
-Install with ```get```
+Install with ```go get```
 ```
-go get https://github.com/1612180/copy
+go get github.com/1612180/copy
 ```
 
 Use
 ```
 ./copy from_file to_file
+```
+
+Test
+```
+go test
 ```
